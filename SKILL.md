@@ -28,6 +28,15 @@ One skill for the writing track: the same fact sheet and draft feed every mode, 
 
 Modes come from `case.modes`/`case.tasks`, else inferred from the task text.
 
+
+## Pipeline
+
+```bash
+python3 /skills/weekly-skill/scripts/writesuite.py --case /input/case.json --work /app/work
+```
+
+> **脚本路径**：本技能安装于 `/skills/weekly-skill/`，脚本绝对路径为 `/skills/weekly-skill/scripts/writesuite.py`（工作目录是 `/app/work`，不要用相对路径）。
+
 ## Rules that must hold
 1. **No fact outside the material.** Numbers/units/conclusions come from the fact sheet or a real reference.
 2. **Polish never changes a fact.** Any source number missing from the draft is flagged.
