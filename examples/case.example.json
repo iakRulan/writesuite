@@ -1,0 +1,9 @@
+{
+  "case_id": "example-writesuite",
+  "modes": ["structure", "citations", "polish", "outline"],
+  "title": "Demo",
+  "facts": "Accuracy was 91.2 percent with n=30.",
+  "draft": "# Abstract\ntext\n# Introduction\ntext\n# Methods\ntext\n# Results\nAccuracy was 91.2 percent.\n# References\n[1] Someone",
+  "references": ["Someone. A paper. 2020."],
+  "sections": ["Abstract", "Introduction", "Methods", "Results", "Discussion", "Conclusion"]
+}
